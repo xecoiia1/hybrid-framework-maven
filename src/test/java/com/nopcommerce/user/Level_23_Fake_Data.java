@@ -81,8 +81,8 @@ public class Level_23_Fake_Data extends BaseTestJquery  {
 		log.info("Register - Step 08: Verify Register Success Message");
 		Assert.assertEquals(registerPage.getSuccessRegisterSucces(), "Your registration completed");
 		
-		//log.info("Register - Step 09: Click to Logout Button");
-		//homePage = registerPage.clickToLogoutBtn();
+		log.info("Register - Step 09: Click to Logout Button");
+		homePage = registerPage.clickToLogoutBtn();
  }
   @Test
   public void User_02_Login() {

@@ -566,3 +566,30 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2022-12-28 15:26:35,252] My Account - Step 05: Verify Email value is correctly
 [INFO ] [2022-12-28 15:26:35,332] OS name = windows 10
 [INFO ] [2022-12-28 15:26:35,332] Driver instance name = chromedriver: chrome on windows (8047b48c754fb34948a6ae49d8cb8a29)
+[INFO ] [2022-12-30 15:18:07,086] Register - Step 01: Click to Register link
+[INFO ] [2022-12-30 15:18:09,528] Register - Step 02: Input FirstName to required field 'Troy'
+[INFO ] [2022-12-30 15:18:09,744] Register - Step 03: Input LastName to required field 'Wehner'
+[INFO ] [2022-12-30 15:18:10,584] Register - Step 04: Input Email to required field 'lenny.mclaughlin@hotmail.com'
+[INFO ] [2022-12-30 15:18:11,029] Register - Step 05: Input Password to required field 'jwfnd3bftc'
+[INFO ] [2022-12-30 15:18:11,285] Register - Step 06: Input Confirm Password to required field 'jwfnd3bftc'
+[INFO ] [2022-12-30 15:18:11,501] Register - Step 07: Click to Register Button
+[INFO ] [2022-12-30 15:18:12,565] Register - Step 08: Verify Register Success Message
+[INFO ] [2022-12-30 15:18:12,798] Login - Step 01: Navigate to Login Button
+[INFO ] [2022-12-30 15:19:41,198] Register - Step 01: Click to Register link
+[INFO ] [2022-12-30 15:19:42,629] Register - Step 02: Input FirstName to required field 'Donte'
+[INFO ] [2022-12-30 15:19:42,842] Register - Step 03: Input LastName to required field 'Cronin'
+[INFO ] [2022-12-30 15:19:43,579] Register - Step 04: Input Email to required field 'tangela.little@gmail.com'
+[INFO ] [2022-12-30 15:19:43,965] Register - Step 05: Input Password to required field '8hp630gjoh5x9'
+[INFO ] [2022-12-30 15:19:44,223] Register - Step 06: Input Confirm Password to required field '8hp630gjoh5x9'
+[INFO ] [2022-12-30 15:19:44,474] Register - Step 07: Click to Register Button
+[INFO ] [2022-12-30 15:19:45,545] Register - Step 08: Verify Register Success Message
+[INFO ] [2022-12-30 15:19:45,642] Register - Step 09: Click to Logout Button
+[INFO ] [2022-12-30 16:48:31,473] Register - Step 01: Click to Register link
+[INFO ] [2022-12-30 16:48:33,019] Register - Step 02: Input FirstName to required field 'Vicente'
+[INFO ] [2022-12-30 16:48:33,260] Register - Step 03: Input LastName to required field 'Carroll'
+[INFO ] [2022-12-30 16:48:34,068] Register - Step 04: Input Email to required field 'mitzi.kessler@hotmail.com'
+[INFO ] [2022-12-30 16:48:34,478] Register - Step 05: Input Password to required field 'habbx1lykmxqbz6'
+[INFO ] [2022-12-30 16:48:34,771] Register - Step 06: Input Confirm Password to required field 'habbx1lykmxqbz6'
+[INFO ] [2022-12-30 16:48:35,041] Register - Step 07: Click to Register Button
+[INFO ] [2022-12-30 16:48:36,097] Register - Step 08: Verify Register Success Message
+[INFO ] [2022-12-30 16:48:36,183] Register - Step 09: Click to Logout Button
