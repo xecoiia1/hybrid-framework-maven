@@ -1,6 +1,7 @@
 package commonJquery;
 
 import java.util.List;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.testng.IInvokedMethod;
@@ -17,7 +18,7 @@ public class MethodListener implements IInvokedMethodListener {
 
 	@Override
 	public void afterInvocation(IInvokedMethod method, ITestResult result) {
-		//log.debug("After invocation of " + method.getTestMethod().getMethodName());
+		log.debug("After invocation of " + method.getTestMethod().getMethodName());
 		Reporter.setCurrentTestResult(result);
 		if (method.isTestMethod()) {
 			VerificationFailures allFailures = VerificationFailures.getFailures();
