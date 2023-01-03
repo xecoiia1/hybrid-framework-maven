@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:06,607] Register - Step 01: Click to Register link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:07,626] Register - Step 02: Input FirstName to required field 'Kennith'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:07,725] Register - Step 03: Input LastName to required field 'Swift'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:08,063] Register - Step 04: Input Email to required field 'carmen.herman@yahoo.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:08,196] Register - Step 05: Input Password to required field 'rwaemh55hs'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:08,284] Register - Step 06: Input Confirm Password to required field 'rwaemh55hs'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:08,381] Register - Step 07: Click to Register Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:08,996] Register - Step 08: Verify Register Success Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:09,050] Register - Step 09: Click to Logout Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:39,132] Login - Step 01: Navigate to Login Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:40,028] Login - Step 02: Input Not Found Email to Email Textbox 'carmen.herman@yahoo.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:40,123] Login - Step 03:  Input Password TextBox 'rwaemh55hs'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:40,222] Login - Step 04:  Click to Login Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:40,818] Login - Step 05:  Verify Login Success
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:40,907] Login - Step 06: Navigate to MyAccoutLink
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,257] Login - Step 07: Verify Login Success
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,296] My Account - Step 01: Navigate to MyAccoutLink
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,645] My Account - Step 02: Verify Login Success
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,679] My Account - Step 03: Verify FirstName value is correctly
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,714] My Account - Step 04: Verify LastName value is correctly
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,750] My Account - Step 05: Verify Email value is correctly
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,787] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-01-03 10:41:41,787] Driver instance name = chromedriver: chrome on windows (fd818107a8e835afd5dcca7adc72f8e5)
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-03T03:41:00Z" name="NopCommerce" finished-at="2023-01-03T03:41:42Z" duration-ms="42355">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T03:41:00Z" name="Run on Chrome" finished-at="2023-01-03T03:41:42Z" duration-ms="42355">
+      <class name="com.nopcommerce.user.Level_23_Fake_Data">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:00Z" name="initBeforeSuite" finished-at="2023-01-03T03:41:00Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:00Z" name="beforeClass" finished-at="2023-01-03T03:41:06Z" duration-ms="6309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:06Z" name="User_01_Register" finished-at="2023-01-03T03:41:39Z" duration-ms="32496" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class= 'ico-logout'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class= 'ico-logout'] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at commonJquery.BasePageJquery.waitForElementClickAble(BasePageJquery.java:552)
+at pageObject.nopCommerce.user.UserRegisterPageObj.clickToLogoutBtn(UserRegisterPageObj.java:74)
+at com.nopcommerce.user.Level_23_Fake_Data.User_01_Register(Level_23_Fake_Data.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class= 'ico-logout']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EN5F5JA', ip: '192.168.1.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd818107a8e835afd5dcca7adc72f8e5
+*** Element info: {Using=xpath, value=//a[@class= 'ico-logout']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:06,607] Register - Step 01: Click to Register link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:07,626] Register - Step 02: Input FirstName to required field 'Kennith'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:07,725] Register - Step 03: Input LastName to required field 'Swift'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:08,063] Register - Step 04: Input Email to required field 'carmen.herman@yahoo.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:08,196] Register - Step 05: Input Password to required field 'rwaemh55hs'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:08,284] Register - Step 06: Input Confirm Password to required field 'rwaemh55hs'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:08,381] Register - Step 07: Click to Register Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:08,996] Register - Step 08: Verify Register Success Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:09,050] Register - Step 09: Click to Logout Button
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- User_01_Register -->
+        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:39Z" name="User_02_Login" finished-at="2023-01-03T03:41:41Z" duration-ms="2160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:39,132] Login - Step 01: Navigate to Login Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:40,028] Login - Step 02: Input Not Found Email to Email Textbox 'carmen.herman@yahoo.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:40,123] Login - Step 03:  Input Password TextBox 'rwaemh55hs'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:40,222] Login - Step 04:  Click to Login Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:40,818] Login - Step 05:  Verify Login Success
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:40,907] Login - Step 06: Navigate to MyAccoutLink
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,257] Login - Step 07: Verify Login Success
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- User_02_Login -->
+        <test-method signature="User_03_My_Account()[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:41Z" name="User_03_My_Account" finished-at="2023-01-03T03:41:41Z" duration-ms="491" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,296] My Account - Step 01: Navigate to MyAccoutLink
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,645] My Account - Step 02: Verify Login Success
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,679] My Account - Step 03: Verify FirstName value is correctly
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,714] My Account - Step 04: Verify LastName value is correctly
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,750] My Account - Step 05: Verify Email value is correctly
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- User_03_My_Account -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_23_Fake_Data@309028af]" started-at="2023-01-03T03:41:41Z" name="afterClass" finished-at="2023-01-03T03:41:42Z" duration-ms="797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,787] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-01-03 10:41:41,787] Driver instance name = chromedriver: chrome on windows (fd818107a8e835afd5dcca7adc72f8e5)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Level_23_Fake_Data -->
+    </test> <!-- Run on Chrome -->
+  </suite> <!-- NopCommerce -->
+</testng-results>

@@ -215,7 +215,7 @@ public class BaseTestJquery {
 			File[] listOfFiles = file.listFiles();
 			for (int i = 0; i < listOfFiles.length; i++) {
 				if (listOfFiles[i].isFile()) {
-					System.out.println(listOfFiles[i].getName());
+					//System.out.println(listOfFiles[i].getName());
 					new File(listOfFiles[i].toString()).delete();
 				}
 			}

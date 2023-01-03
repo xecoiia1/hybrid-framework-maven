@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NopCommerce" class="navigator-link">
+              <span class="suite-name border-failed">NopCommerce</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NopCommerce" class="navigator-link ">
+                    <span>E:\Selenium\04 - Maven Framework\hybrid-framework-maven\src\test\resources\runNopComMerceTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NopCommerce" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NopCommerce" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NopCommerce" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NopCommerce" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NopCommerce" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NopCommerce" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NopCommerce" class="hide-methods failed suite-NopCommerce"> (hide)</a> <!-- hide-methods failed suite-NopCommerce -->
+                      <a href="#" panel-name="suite-NopCommerce" class="show-methods failed suite-NopCommerce"> (show)</a> <!-- show-methods failed suite-NopCommerce -->
+                    </span>
+                    <div class="method-list-content failed suite-NopCommerce">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.user.Level_23_Fake_Data" class="method navigator-link" hash-for-method="User_01_Register">User_01_Register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NopCommerce -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NopCommerce" class="hide-methods passed suite-NopCommerce"> (hide)</a> <!-- hide-methods passed suite-NopCommerce -->
+                      <a href="#" panel-name="suite-NopCommerce" class="show-methods passed suite-NopCommerce"> (show)</a> <!-- show-methods passed suite-NopCommerce -->
+                    </span>
+                    <div class="method-list-content passed suite-NopCommerce">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.user.Level_23_Fake_Data" class="method navigator-link" hash-for-method="User_02_Login">User_02_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.user.Level_23_Fake_Data" class="method navigator-link" hash-for-method="User_03_My_Account">User_03_My_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NopCommerce -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NopCommerce" class="panel NopCommerce">
+          <div class="suite-NopCommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.user.Level_23_Fake_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_01_Register">
+                  </a> <!-- User_01_Register -->
+                  <span class="method-name">User_01_Register</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class= &apos;ico-logout&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commonJquery.BasePageJquery.waitForElementClickAble(BasePageJquery.java:552)
+	at pageObject.nopCommerce.user.UserRegisterPageObj.clickToLogoutBtn(UserRegisterPageObj.java:74)
+	at com.nopcommerce.user.Level_23_Fake_Data.User_01_Register(Level_23_Fake_Data.java:85)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class= &apos;ico-logout&apos;]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-EN5F5JA&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd818107a8e835afd5dcca7adc72f8e5
+*** Element info: {Using=xpath, value=//a[@class= &apos;ico-logout&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NopCommerce-class-failed -->
+          <div class="suite-NopCommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.user.Level_23_Fake_Data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_02_Login">
+                  </a> <!-- User_02_Login -->
+                  <span class="method-name">User_02_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_03_My_Account">
+                  </a> <!-- User_03_My_Account -->
+                  <span class="method-name">User_03_My_Account</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NopCommerce-class-passed -->
+        </div> <!-- panel NopCommerce -->
+        <div panel-name="test-xml-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium\04 - Maven Framework\hybrid-framework-maven\src\test\resources\runNopComMerceTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NopCommerce&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommerce.user.Level_23_Fake_Data&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on Chrome --&gt;
+&lt;/suite&gt; &lt;!-- NopCommerce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on Chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NopCommerce');
+function tableData_NopCommerce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'User_01_Register')
+data.setCell(0, 2, 'com.nopcommerce.user.Level_23_Fake_Data')
+data.setCell(0, 3, 32496);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'User_02_Login')
+data.setCell(1, 2, 'com.nopcommerce.user.Level_23_Fake_Data')
+data.setCell(1, 3, 2160);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'User_03_My_Account')
+data.setCell(2, 2, 'com.nopcommerce.user.Level_23_Fake_Data')
+data.setCell(2, 3, 491);
+window.suiteTableData['NopCommerce']= { tableData: data, tableDiv: 'times-div-NopCommerce'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-NopCommerce">
+              </div> <!-- times-div-NopCommerce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">User_02_Login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:39,132] Login - Step 01: Navigate to Login Button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:40,028] Login - Step 02: Input Not Found Email to Email Textbox 'carmen.herman@yahoo.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:40,123] Login - Step 03:  Input Password TextBox 'rwaemh55hs'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:40,222] Login - Step 04:  Click to Login Button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:40,818] Login - Step 05:  Verify Login Success
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:40,907] Login - Step 06: Navigate to MyAccoutLink
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,257] Login - Step 07: Verify Login Success
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">User_03_My_Account</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,296] My Account - Step 01: Navigate to MyAccoutLink
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,645] My Account - Step 02: Verify Login Success
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,679] My Account - Step 03: Verify FirstName value is correctly
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,714] My Account - Step 04: Verify LastName value is correctly
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:41,750] My Account - Step 05: Verify Email value is correctly
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">User_01_Register</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:06,607] Register - Step 01: Click to Register link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:07,626] Register - Step 02: Input FirstName to required field 'Kennith'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:07,725] Register - Step 03: Input LastName to required field 'Swift'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:08,063] Register - Step 04: Input Email to required field 'carmen.herman@yahoo.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:08,196] Register - Step 05: Input Password to required field 'rwaemh55hs'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:08,284] Register - Step 06: Input Confirm Password to required field 'rwaemh55hs'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:08,381] Register - Step 07: Click to Register Button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:08,996] Register - Step 08: Verify Register Success Message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-01-03 10:41:09,050] Register - Step 09: Click to Logout Button
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.user.Level_23_Fake_Data</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initBeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">User_01_Register</span>
+                <span class="method-start">6359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_02_Login</span>
+                <span class="method-start">38926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_03_My_Account</span>
+                <span class="method-start">41090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">41582 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -593,3 +593,97 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2022-12-30 16:48:35,041] Register - Step 07: Click to Register Button
 [INFO ] [2022-12-30 16:48:36,097] Register - Step 08: Verify Register Success Message
 [INFO ] [2022-12-30 16:48:36,183] Register - Step 09: Click to Logout Button
+[INFO ] [2023-01-03 10:31:00,197] Register - Step 01: Click to Register link
+[INFO ] [2023-01-03 10:31:01,230] Register - Step 02: Input FirstName to required field 'Fannie'
+[INFO ] [2023-01-03 10:31:01,320] Register - Step 03: Input LastName to required field 'Bradtke'
+[INFO ] [2023-01-03 10:31:01,645] Register - Step 04: Input Email to required field 'maida.borer@hotmail.com'
+[INFO ] [2023-01-03 10:31:01,784] Register - Step 05: Input Password to required field 'yu7nhc9vnzvtk'
+[INFO ] [2023-01-03 10:31:01,869] Register - Step 06: Input Confirm Password to required field 'yu7nhc9vnzvtk'
+[INFO ] [2023-01-03 10:31:01,958] Register - Step 07: Click to Register Button
+[INFO ] [2023-01-03 10:31:03,051] Register - Step 08: Verify Register Success Message
+[INFO ] [2023-01-03 10:31:03,095] Register - Step 09: Click to Logout Button
+[INFO ] [2023-01-03 10:31:03,778] Login - Step 01: Navigate to Login Button
+[INFO ] [2023-01-03 10:31:04,141] Login - Step 02: Input Not Found Email to Email Textbox 'maida.borer@hotmail.com'
+[INFO ] [2023-01-03 10:31:04,231] Login - Step 03:  Input Password TextBox 'yu7nhc9vnzvtk'
+[INFO ] [2023-01-03 10:31:04,325] Login - Step 04:  Click to Login Button
+[INFO ] [2023-01-03 10:31:04,924] Login - Step 05:  Verify Login Success
+[INFO ] [2023-01-03 10:31:05,008] Login - Step 06: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:31:05,347] Login - Step 07: Verify Login Success
+[INFO ] [2023-01-03 10:31:05,386] My Account - Step 01: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:31:06,148] My Account - Step 02: Verify Login Success
+[INFO ] [2023-01-03 10:31:06,184] My Account - Step 03: Verify FirstName value is correctly
+[INFO ] [2023-01-03 10:31:06,216] My Account - Step 04: Verify LastName value is correctly
+[INFO ] [2023-01-03 10:31:06,249] My Account - Step 05: Verify Email value is correctly
+[INFO ] [2023-01-03 10:31:06,284] OS name = windows 10
+[INFO ] [2023-01-03 10:31:06,284] Driver instance name = chromedriver: chrome on windows (0b04f76dab8874280f16de3eccbeae14)
+[INFO ] [2023-01-03 10:36:31,063] OS name = windows 10
+[INFO ] [2023-01-03 10:36:31,063] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2023-01-03 10:37:44,057] Register - Step 01: Click to Register link
+[INFO ] [2023-01-03 10:37:45,079] Register - Step 02: Input FirstName to required field 'Don'
+[INFO ] [2023-01-03 10:37:45,166] Register - Step 03: Input LastName to required field 'Crona'
+[INFO ] [2023-01-03 10:37:45,504] Register - Step 04: Input Email to required field 'raymon.zulauf@yahoo.com'
+[INFO ] [2023-01-03 10:37:45,640] Register - Step 05: Input Password to required field 'wf0salxwy0h9c3'
+[INFO ] [2023-01-03 10:37:45,730] Register - Step 06: Input Confirm Password to required field 'wf0salxwy0h9c3'
+[INFO ] [2023-01-03 10:37:45,819] Register - Step 07: Click to Register Button
+[INFO ] [2023-01-03 10:37:46,400] Register - Step 08: Verify Register Success Message
+[INFO ] [2023-01-03 10:37:46,447] Register - Step 09: Click to Logout Button
+[INFO ] [2023-01-03 10:38:16,598] Login - Step 01: Navigate to Login Button
+[INFO ] [2023-01-03 10:38:17,510] Login - Step 02: Input Not Found Email to Email Textbox 'raymon.zulauf@yahoo.com'
+[INFO ] [2023-01-03 10:38:17,614] Login - Step 03:  Input Password TextBox 'wf0salxwy0h9c3'
+[INFO ] [2023-01-03 10:38:17,707] Login - Step 04:  Click to Login Button
+[INFO ] [2023-01-03 10:38:18,308] Login - Step 05:  Verify Login Success
+[INFO ] [2023-01-03 10:38:18,400] Login - Step 06: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:38:18,752] Login - Step 07: Verify Login Success
+[INFO ] [2023-01-03 10:38:18,792] My Account - Step 01: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:38:19,141] My Account - Step 02: Verify Login Success
+[INFO ] [2023-01-03 10:38:19,178] My Account - Step 03: Verify FirstName value is correctly
+[INFO ] [2023-01-03 10:38:19,216] My Account - Step 04: Verify LastName value is correctly
+[INFO ] [2023-01-03 10:38:19,255] My Account - Step 05: Verify Email value is correctly
+[INFO ] [2023-01-03 10:38:19,296] OS name = windows 10
+[INFO ] [2023-01-03 10:38:19,296] Driver instance name = chromedriver: chrome on windows (15a02ccd49bb1fa51721c577fa11f567)
+[INFO ] [2023-01-03 10:41:06,607] Register - Step 01: Click to Register link
+[INFO ] [2023-01-03 10:41:07,626] Register - Step 02: Input FirstName to required field 'Kennith'
+[INFO ] [2023-01-03 10:41:07,725] Register - Step 03: Input LastName to required field 'Swift'
+[INFO ] [2023-01-03 10:41:08,063] Register - Step 04: Input Email to required field 'carmen.herman@yahoo.com'
+[INFO ] [2023-01-03 10:41:08,196] Register - Step 05: Input Password to required field 'rwaemh55hs'
+[INFO ] [2023-01-03 10:41:08,284] Register - Step 06: Input Confirm Password to required field 'rwaemh55hs'
+[INFO ] [2023-01-03 10:41:08,381] Register - Step 07: Click to Register Button
+[INFO ] [2023-01-03 10:41:08,996] Register - Step 08: Verify Register Success Message
+[INFO ] [2023-01-03 10:41:09,050] Register - Step 09: Click to Logout Button
+[INFO ] [2023-01-03 10:41:39,132] Login - Step 01: Navigate to Login Button
+[INFO ] [2023-01-03 10:41:40,028] Login - Step 02: Input Not Found Email to Email Textbox 'carmen.herman@yahoo.com'
+[INFO ] [2023-01-03 10:41:40,123] Login - Step 03:  Input Password TextBox 'rwaemh55hs'
+[INFO ] [2023-01-03 10:41:40,222] Login - Step 04:  Click to Login Button
+[INFO ] [2023-01-03 10:41:40,818] Login - Step 05:  Verify Login Success
+[INFO ] [2023-01-03 10:41:40,907] Login - Step 06: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:41:41,257] Login - Step 07: Verify Login Success
+[INFO ] [2023-01-03 10:41:41,296] My Account - Step 01: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:41:41,645] My Account - Step 02: Verify Login Success
+[INFO ] [2023-01-03 10:41:41,679] My Account - Step 03: Verify FirstName value is correctly
+[INFO ] [2023-01-03 10:41:41,714] My Account - Step 04: Verify LastName value is correctly
+[INFO ] [2023-01-03 10:41:41,750] My Account - Step 05: Verify Email value is correctly
+[INFO ] [2023-01-03 10:41:41,787] OS name = windows 10
+[INFO ] [2023-01-03 10:41:41,787] Driver instance name = chromedriver: chrome on windows (fd818107a8e835afd5dcca7adc72f8e5)
+[INFO ] [2023-01-03 10:54:21,380] Register - Step 01: Click to Register link
+[INFO ] [2023-01-03 10:54:22,397] Register - Step 02: Input FirstName to required field 'Antone'
+[INFO ] [2023-01-03 10:54:22,490] Register - Step 03: Input LastName to required field 'Streich'
+[INFO ] [2023-01-03 10:54:22,873] Register - Step 04: Input Email to required field 'renee.beier@hotmail.com'
+[INFO ] [2023-01-03 10:54:23,011] Register - Step 05: Input Password to required field 'cgogxnpgfy90'
+[INFO ] [2023-01-03 10:54:23,097] Register - Step 06: Input Confirm Password to required field 'cgogxnpgfy90'
+[INFO ] [2023-01-03 10:54:23,182] Register - Step 07: Click to Register Button
+[INFO ] [2023-01-03 10:54:23,791] Register - Step 08: Verify Register Success Message
+[INFO ] [2023-01-03 10:54:23,841] Register - Step 09: Click to Logout Button
+[INFO ] [2023-01-03 10:54:53,947] Login - Step 01: Navigate to Login Button
+[INFO ] [2023-01-03 10:54:54,824] Login - Step 02: Input Not Found Email to Email Textbox 'renee.beier@hotmail.com'
+[INFO ] [2023-01-03 10:54:54,921] Login - Step 03:  Input Password TextBox 'cgogxnpgfy90'
+[INFO ] [2023-01-03 10:54:55,010] Login - Step 04:  Click to Login Button
+[INFO ] [2023-01-03 10:54:55,639] Login - Step 05:  Verify Login Success
+[INFO ] [2023-01-03 10:54:55,720] Login - Step 06: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:54:56,064] Login - Step 07: Verify Login Success
+[INFO ] [2023-01-03 10:54:56,103] My Account - Step 01: Navigate to MyAccoutLink
+[INFO ] [2023-01-03 10:54:56,437] My Account - Step 02: Verify Login Success
+[INFO ] [2023-01-03 10:54:56,472] My Account - Step 03: Verify FirstName value is correctly
+[INFO ] [2023-01-03 10:54:56,509] My Account - Step 04: Verify LastName value is correctly
+[INFO ] [2023-01-03 10:54:56,549] My Account - Step 05: Verify Email value is correctly
+[INFO ] [2023-01-03 10:54:56,590] OS name = windows 10
+[INFO ] [2023-01-03 10:54:56,590] Driver instance name = chromedriver: chrome on windows (e5cc4b3878b50be2cdb1da8ad7e7bdf2)
