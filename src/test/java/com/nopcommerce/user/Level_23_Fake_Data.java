@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.github.dockerjava.transport.DockerHttpClient.Request.Method;
 import com.nopcommerce.data.UserDataMapper;
 
 import common.PageGeneratorManager;
@@ -20,6 +21,8 @@ import pageObject.nopCommerce.user.UserLoginPageObj;
 import pageObject.nopCommerce.user.UserMyProductReviewPageObj;
 import pageObject.nopCommerce.user.UserRegisterPageObj;
 import pageObject.nopCommerce.user.UserRewardPointPageObj;
+import reportConfig.ExtentManagerV5;
+import reportConfig.ExtentTestManager;
 import utilities.DataHelper;
 
 public class Level_23_Fake_Data extends BaseTestJquery  {
@@ -43,6 +46,7 @@ public class Level_23_Fake_Data extends BaseTestJquery  {
   
   @Test
   public void User_01_Register() {
+	  
 	  	log.info("Register - Step 01: Click to Register link");
 		registerPage = homePage.clickToRegisterLink();
 		
