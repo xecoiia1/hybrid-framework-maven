@@ -147,7 +147,23 @@
             <version>${aspectj.version}</version>
              <scope>runtime</scope>
         </dependency>
+        
+        <dependency>
+    		<groupId>org.projectlombok</groupId>
+    		<artifactId>lombok</artifactId>
+    		<version>1.18.24</version>
+    		<scope>provided</scope>
+		</dependency>
+		
+		    <!-- https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
+		<dependency>
+    		<groupId>org.aeonbits.owner</groupId>
+    		<artifactId>owner</artifactId>
+    		<version>1.0.12</version>
+		</dependency>
     </dependencies>
+    
+
     
     <!-- Compiler/ Run Test -->
     <build>
@@ -172,8 +188,8 @@
                 <configuration>
                     <!-- Run TestNG xml file -->
                     <suiteXmlFiles>
-                        <!-- <suiteXmlFile>enviromentConfig/runNopComMerceTest.xml</suiteXmlFile>-->
-                        <suiteXmlFile>enviromentFolder/${enviroment}.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/runNopComMerceTest.xml</suiteXmlFile>
+                        <!--<suiteXmlFile>enviromentFolder/${enviroment}.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
 
                     <!-- Argument -->

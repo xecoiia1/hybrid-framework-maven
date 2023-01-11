@@ -3,22 +3,25 @@
  
  	<listeners>
  		<!-- <listener class-name="commonJquery.MethodListener"></listener>-->
- 		<!--<listener class-name="reportConfig.ReportNGListener"></listener> -->
- 		<!--<listener class-name="reportConfig.ExtentTestListenerV5"></listener>-->
- 		<!--<listener class-name="reportConfig.AllureTestListener"></listener> -->
- 		<!--<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->
-		<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>-->
+ 		<!-- <listener class-name="reportConfig.ReportNGListener"></listener >-->
+ 		<!-- <listener class-name="reportConfig.ExtentTestListenerV3"></listener>-->
+ 		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> -->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener> -->
  	</listeners>
  	
  	
- <!-- Test -->
-  <test name="Run on Chrome">
+ 	
+ <!-- Global -->
+   <parameter name="enviroment" value="staging"/> 
+ 	
+ 	
+  <test name="Run on Firefox">
   	<parameter name="browser" value="chrome"/>
     <classes>
       <!-- <class name="com.nopcommerce.common.Common_01_Cookies"/> -->
-      <class name="com.nopcommerce.user.Level_23_Fake_Data"/>
+      <class name="com.nopcommerce.user.Level_24_Multiple_Enviroment_Owner"/>
     </classes>
-  </test> 
+  </test> <!-- Test -->
 
 
 </suite> <!-- Suite -->
